@@ -143,7 +143,7 @@ LoadPage::LoadPage():
 	blockLocalFileAccess(false),
 	stopSlowScripts(true),
 	debugJavascript(false),
-	loadErrorHandling(abort),
+	loadErrorHandling(ignore),
 	mediaLoadErrorHandling(ignore),
 	cacheDir(""),
 	proxyHostNameLookup(false) {};
